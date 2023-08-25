@@ -30,4 +30,4 @@ Next run the django web server.
 ```bash
 python manage.py runserver
 ```
-### Click the Sort Me button to find out what Hogwarts House your music taste matches with!
+

@@ -1,6 +1,6 @@
 # hogwarts-sorting-hat-spotify
 
-The application retrieves a user's Spotify data after they input their credentials, and then employs a sorting algorithm to categorize them into a Hogwarts house based on their music taste. This algorithm considers the distinct traits associated with each Harry Potter house as well as the user's top genres, artists, and tracks to determine which house the user belongs to. This is a full-stack application that uses Django for the backend and React for the frontend.
+This application retrieves a user's Spotify data and then uses the data to sort them into a Hogwarts house based on their music taste. This algorithm considers the distinct traits associated with each Harry Potter house as well as the user's top genres, artists, and tracks to determine which house the user belongs to. This is a full-stack application that uses Django for the backend and React for the frontend.
 
 # Setup Instructions
 

@@ -20,8 +20,6 @@ Configure the Redirect URI in your Spotify app settings to http://127.0.0.1:8000
 
 ### Start Web Server
 
-To start the web server:
-
 ```bash
 python manage.py runserver
 ```

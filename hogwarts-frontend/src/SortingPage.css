@@ -1,0 +1,9 @@
+.SortingPage {
+    text-align: center; /* Center align content */
+    padding: 60px; /* Add padding to the sides */
+  }
+  
+  .house-blurb {
+    margin: 30 auto; /* Center align the blurb */
+    max-width: 300px; /* Limit the width of the blurb */
+  }

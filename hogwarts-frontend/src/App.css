@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #13294B, #3F1654, #131742);
+  background-size: 400% 400%;
+  animation: gradientChange 15s ease infinite;
+}
+
+@keyframes gradientChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@font-face {
+  font-family: 'Harry P';
+  src: url('/Users/sachi/hogwarts_project/harry_p/HARRYP__.TTF') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App-header {
+  font-family: 'Harry P', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative; /* Add relative positioning */
+}
+
+h1 {
+  font-size: calc(100px + 2vmin);
+  margin-bottom: 2rem; /* Adjust the margin to reduce the space below the header text */
+  position: relative; /* Add relative positioning to the header text */
+  z-index: 2; /* Ensure the text is above the Sorting Hat image */
+}
+
+p {
+  font-size: calc(20px + 1vmin); /* Adjust house text size */
+  margin-top: 1rem; /* Add some space below the header text */
+}
+
+
+.hogwarts-crest-image {
+  max-width: 330px; /* Adjust the size as needed */
+  margin-top: 20px; /* Add margin to separate it from the sorting text */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sort-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #13294B; /* Set the background to transparent */
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Harry P', sans-serif; /* Apply Harry Potter font */
+}
+
+.SortingPage {
+  font-family: 'Harry P', sans-serif;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #13294b, #3f1654, #131742);
+  background-size: 400% 400%;
+  animation: gradientChange 15s ease infinite;
+}
